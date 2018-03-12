@@ -4,6 +4,7 @@ def prime?(number)
     arr = [2..number-1].to_a 
   else
     arr = [2]
+  end
   arr.each do |x|
     if number % x == 0 
       return FALSE
