@@ -3,7 +3,7 @@ def prime?(number)
   if number == 2 || number == 3
     return TRUE
   elsif number > 3 
-    arr = [2..number-1].to_a 
+    arr = (2..number-1).to_a 
     
   else
     puts "Neither Prime nor composite"
