@@ -1,9 +1,11 @@
 # Add  code here!
 def prime?(number)
-  if number >2 
+  if number == 2
+    return TRUE
+  elsif number > 2 
     arr = [2..number-1].to_a 
   else
-    arr = [2]
+    puts "Neither Prime nor composite"
   end
   arr.each do |x|
     if number % x == 0 
