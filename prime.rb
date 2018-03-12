@@ -4,6 +4,7 @@ def prime?(number)
     return TRUE
   elsif number > 3 
     arr = [2..number-1].to_a 
+    
   else
     puts "Neither Prime nor composite"
   end
