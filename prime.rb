@@ -5,8 +5,8 @@ def prime?(number)
   elsif number > 3 
     arr = (2..number-1).to_a 
     
-  else
-    puts "Neither Prime nor composite"
+  elsif number <= 1
+    return FALSE
   end
   arr.each do |x|
     if number % x == 0 
